@@ -1,0 +1,12 @@
+Para probar
+
+En Windows:
+ gradlew.bat clean test jacocoTestReport
+
+En Linux/unix
+ ./gradlew clean test jacocoTestReport
+
+
+Ubicacion del reporte de pruebas
+
+{carpeta_proyecto}/build/reports
