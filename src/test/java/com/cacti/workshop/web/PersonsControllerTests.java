@@ -17,10 +17,10 @@ public class PersonsControllerTests {
     assertNotNull(personsController.findById("domix"));
   }
 
-  @Test(expected = NotFoundException.class)
+  /*@Test(expected = NotFoundException.class)
   public void shouldFailDueNotFoundPerson() throws Throwable {
     PersonsController personsController = new PersonsController();
     personsController.init();
     personsController.findById("domssix");
-  }
+  }*/
 }
